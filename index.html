@@ -1,13 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Eduport</title>
 </head>
 
 <body>
+    <!--! SVG Sprit  -->
+    <svg class="hidden">
+        <!-- adjustments-horizontal -->
+        <symbol id="adjustments-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+        </symbol>
+
+        <!-- chevron-down -->
+        <symbol id="chevron-down" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+        </symbol>
+
+        <!-- ellipsis-horizontal -->
+        <symbol id="ellipsis-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+        </symbol>
+
+        <!-- magnifying-glass -->
+        <symbol id="magnifying-glass" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </symbol>
+    </svg>
+
+    <!--! Start Header Section  -->
+    <header class="header">
+        <nav class="heaedr-nav">
+            <div class="header-container">
+                <!--! Header Logo -->
+                <a href="#" class="header__logo">
+                    <img src="./images/logo-light.svg" class="header__logo-img" alt="LOGO">
+                </a>
+
+                <!--! Header Content -->
+                <div class="header__content">
+                    <!--! Header Category -->
+                    <ul class="header__content-category">
+                        <li class="header__content-category__item">
+                            <a href="#" class="header__content-category__link">
+                                <svg>
+                                    <use xlink:href="#adjustments-horizontal"></use>
+                                </svg>
+                                <span class="header__content-category__link-text">
+                                    دسته بندی
+                                </span>
+                            </a>
+
+                            <ul class="header__content-category__menu">
+                                <li class="header__content-category__menu-item">
+                                    <a href="#" class="header__content-category__menu-link">
+                                        <span class="header__content-category__menu-link__text">
+                                            برنامه نویسی
+                                        </span>
+                                        <svg>
+                                            <use xlink:href="#ellipsis-horizontal"></use>
+                                        </svg>
+                                    </a>
+
+                                    <ul class="header__content-category__menu-item__submenu">
+
+                                        <!-- Item 1 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                <span class="header__content-category__menu-item__submenu-link__text">
+                                                    برنامه نویسی
+                                                </span>
+                                                <svg>
+                                                    <use xlink:href="#ellipsis-horizontal"></use>
+                                                </svg>
+                                            </a>
+
+                                            <ul class="header__content-category__menu-item__submenu-dropdown">
+                                                <!-- Item 1 -->
+                                                <li class="header__content-category__menu-item__submenu-dropdown__item">
+                                                    <a href="#"
+                                                        class="header__content-category__menu-item__submenu-dropdown__link">
+                                                        HTML
+                                                    </a>
+                                                </li>
+
+                                                <!-- Item 2 -->
+                                                <li class="header__content-category__menu-item__submenu-dropdown__item">
+                                                    <a href="#"
+                                                        class="header__content-category__menu-item__submenu-dropdown__link">
+                                                        CSS
+                                                    </a>
+                                                </li>
+
+                                                <!-- Item 3 -->
+                                                <li class="header__content-category__menu-item__submenu-dropdown__item">
+                                                    <a href="#"
+                                                        class="header__content-category__menu-item__submenu-dropdown__link">
+                                                        JavaScript
+                                                    </a>
+                                                </li>
+
+                                                <!-- Item 4 -->
+                                                <li class="header__content-category__menu-item__submenu-dropdown__item">
+                                                    <a href="#"
+                                                        class="header__content-category__menu-item__submenu-dropdown__link">
+                                                        Angular
+                                                    </a>
+                                                </li>
+
+                                                <!-- Item 5 -->
+                                                <li class="header__content-category__menu-item__submenu-dropdown__item">
+                                                    <a href="#"
+                                                        class="header__content-category__menu-item__submenu-dropdown__link">
+                                                        PHP
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <!-- Item 2 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                طراحی وب
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 3 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                دیجیتال مارکتینگ
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 4 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                هوش مصنوعی
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 5 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                زبان انگلیسی
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 6 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                فناوری و اطلاعات
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 7 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                مهندسی نرم افزار
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 8 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                رباتیک
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 9 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                نگارش آکادمیک
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 10 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                علوم انسانی
+                                            </a>
+                                        </li>
+
+                                        <!-- Item 11 -->
+                                        <li class="header__content-category__menu-item__submenu-item">
+                                            <a href="#" class="header__content-category__menu-item__submenu-link">
+                                                ریاضیات
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!--! Header Menu -->
+                    <ul class="header__content-menu">
+                        <!-- Item 1 -->
+                        <li class="header__content-menu__item">
+                            <a href="#" class="header__content-menu__link">
+                                <svg>
+                                    <use xlink:href="#chevron-down"></use>
+                                </svg>
+                                <span>صفحه اصلی</span>
+                            </a>
+
+                            <ul class="header__content-menu__item-submenu"></ul>
+                        </li>
+
+                        <!-- Item 2 -->
+                        <li class="header__content-menu__item">
+                            <a href="#" class="header__content-menu__link">
+                                <svg>
+                                    <use xlink:href="#chevron-down"></use>
+                                </svg>
+                                <span>صفحه اصلی</span>
+                            </a>
+
+                            <ul class="header__content-menu__item-submenu"></ul>
+                        </li>
+
+                        <!-- Item 3 -->
+                        <li class="header__content-menu__item">
+                            <a href="#" class="header__content-menu__link">
+                                <svg>
+                                    <use xlink:href="#chevron-down"></use>
+                                </svg>
+                                <span>صفحه اصلی</span>
+                            </a>
+
+                            <ul class="header__content-menu__item-submenu"></ul>
+                        </li>
+
+                        <!-- Item 4 -->
+                        <li class="header__content-menu__item">
+                            <a href="#" class="header__content-menu__link">
+                                <svg>
+                                    <use xlink:href="#chevron-down"></use>
+                                </svg>
+                                <span>صفحه اصلی</span>
+                            </a>
+
+                            <ul class="header__content-menu__item-submenu"></ul>
+                        </li>
+
+                        <!-- Item 5 -->
+                        <li class="header__content-menu__item">
+                            <a href="#" class="header__content-menu__link">
+                                <svg>
+                                    <use xlink:href="#ellipsis-horizontal"></use>
+                                </svg>
+                            </a>
+
+                            <ul class="header__content-menu__item-submenu"></ul>
+                        </li>
+                    </ul>
+
+                    <!--! Header Seach Box -->
+                    <div class="header__content-searchbox">
+                        <div class="header__content-searchbox__wrapper">
+                            <form action="" class="header__content-searchbox__form">
+                                <input type="text" class="header__content-searchbox__form-input"
+                                    placeholder="جستجو ...">
+
+                                <button class="header__content-searchbox__form-btn" type="submit">
+                                    <svg>
+                                        <use xlink:href="#magnifying-glass"></use>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!--! Header DropDown -->
+                <div class="header__dropdown">
+                    <!--! Header Profile -->
+                    <a href="#" class="header__dropdown-profile">
+                        <img src="./images/01.jpg" alt="PROFILE" class="header__dropdown-profile-img">
+                    </a>
+
+                    <!--! Header Profile menu -->
+                    <ul class="header__dropdown-menu"></ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--! Finish Header Section -->
 
 </body>
 
