@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+    <link rel="stylesheet" href="./styles/app.css">
     <title>Eduport</title>
 </head>
 
-<body>
+<body class="bg-darkblue">
 
     <!--! Start SVG Sprit  -->
     <svg class="hidden">
@@ -115,26 +116,26 @@
     <header class="">
 
         <!--! Start Nav Section -->
-        <nav class="">
+        <nav class="h-24">
 
             <!-- Header Container Section -->
-            <div class="">
+            <div class="flex mx-12 justify-between items-center h-full">
 
                 <!--! Header Logo -->
-                <a href="#" class="">
-                    <img src="./images/logo-light.svg" class="" alt="LOGO">
+                <a href="#" class="h-9 w-36">
+                    <img src="./images/logo-light.svg" class="h-full w-full" alt="LOGO">
                 </a>
 
                 <!--! Header Nav Main -->
-                <div class="">
+                <div class="flex justify-between w-full">
 
                     <!-- Header Nav Category -->
-                    <ul class="">
+                    <ul class="flex mr-4">
 
                         <!--? Header Nav Category Item -->
-                        <li class="">
-                            <a href="#" class="">
-                                <svg>
+                        <li class="text-active bg-[#066ac91a] rounded-lg">
+                            <a href="#" class="flex mx-4 my-1.5 text-md">
+                                <svg class="w-7 h-7">
                                     <use xlink:href="#adjustments-horizontal"></use>
                                 </svg>
 
@@ -144,7 +145,7 @@
                             </a>
 
                             <!-- Header Nav Category Menu -->
-                            <ul class="">
+                            <ul class="hidden">
 
                                 <!-- Item 1 -->
                                 <!--TODO DropDown SubMenu -->
@@ -562,31 +563,31 @@
                     </ul>
 
                     <!-- Header Nav Menu -->
-                    <ul class="">
+                    <ul class="flex gap-10 items-center">
 
                         <!-- Item 1 -->
                         <li class="">
-                            <a href="#" class="">
-                                <svg>
+                            <a href="#" class="flex items-center font-bold text-active">
+                                <span class="">صفحه اصلی</span>
+
+                                <svg class="w-4 h-4 mt-1.5 mr-1.5">
                                     <use xlink:href="#chevron-down"></use>
                                 </svg>
-
-                                <span class="">صفحه اصلی</span>
                             </a>
                         </li>
 
                         <!-- Item 2 -->
                         <li class="">
-                            <a href="#" class="">
-                                <svg>
+                            <a href="#" class="flex items-center font-bold text-[#c5c6cc]">
+                                <span class="">صفحات</span>
+
+                                <svg class="w-4 h-4 mt-1.5 mr-1.5">
                                     <use xlink:href="#chevron-down"></use>
                                 </svg>
-
-                                <span class="">صفحات</span>
                             </a>
 
                             <!--? DropDown SubMenu -->
-                            <ul class="">
+                            <ul class="hidden">
 
                                 <!-- Item 1 -->
                                 <!-- DropDown SubMenu -->
@@ -978,16 +979,16 @@
 
                         <!-- Item 3 -->
                         <li class="">
-                            <a href="#" class="">
+                            <a href="#" class="flex items-center font-bold text-[#c5c6cc]">
                                 <span class="">داشبورد</span>
 
-                                <svg>
+                                <svg class="w-4 h-4 mt-1.5 mr-1.5">
                                     <use xlink:href="#chevron-down"></use>
                                 </svg>
                             </a>
 
-                            <ul class="">
-                                <!--? DropDown SubMenu -->
+                            <!--? DropDown SubMenu -->
+                            <ul class="hidden">
                                 <li class="">
                                     <a href="#" class="">
                                         <div class="">
@@ -1267,15 +1268,15 @@
 
                         <!-- Item 4 -->
                         <li class="">
-                            <a href="#" class="">
-                                <svg>
+                            <a href="#" class="flex items-center font-bold text-[#c5c6cc]">
+                                <span class="">مگامنو</span>
+
+                                <svg class="w-4 h-4 mt-1.5 mr-1.5">
                                     <use xlink:href="#chevron-down"></use>
                                 </svg>
-
-                                <span class="">مگامنو</span>
                             </a>
 
-                            <div class="">
+                            <div class="hidden">
                                 <div class="">
 
                                     <!-- DropDown Column Item -->
@@ -1526,13 +1527,13 @@
                     </ul>
 
                     <!-- Header Seach Box -->
-                    <div class="">
-                        <div class="">
-                            <form action="" class="">
-                                <input type="text" class="" placeholder="جستجو ...">
+                    <div class="flex items-center">
+                        <div class="border-2 rounded-lg ml-4 bg-darkblue">
+                            <form action="" class="px-2 py-1 flex items-center">
+                                <input type="text" class="bg-darkblue" placeholder="جستجو ...">
 
-                                <button class="" type="submit">
-                                    <svg>
+                                <button class="text-white" type="submit">
+                                    <svg class="w-5 h-5">
                                         <use xlink:href="#magnifying-glass"></use>
                                     </svg>
                                 </button>
@@ -1547,11 +1548,11 @@
 
                     <!-- Header Profile -->
                     <a href="#" class="">
-                        <img src="./images/01.jpg" alt="PROFILE" class="">
+                        <img src="./images/01.jpg" alt="PROFILE" class="w-10 h-10 rounded-full">
                     </a>
 
                     <!-- Header Profile menu -->
-                    <ul class="">
+                    <ul class="hidden">
 
                         <!-- Profile Infos -->
                         <li class="">
