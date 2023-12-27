@@ -108,6 +108,12 @@
             <polygon class="fill-warning opacity-6" points="21.5,19.5 15,24.8 4.7,5.4 "></polygon>
         </symbol>
 
+        <!-- bars-3 -->
+        <symbol id="bars-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </symbol>
+
     </svg>
     <!--! Finish SVG Sprit  -->
 
@@ -126,6 +132,15 @@
                     <img src="./images/logo-light.svg" class="h-full w-full" alt="LOGO">
                 </a>
 
+                <!--! Responsive Navbar Togger -->
+                <button class="hidden">
+                    <span class="">
+                        <svg class="">
+                            <use xlink:href="#bars-3"></use>
+                        </svg>
+                    </span>
+                </button>
+
                 <!--! Header Nav Main -->
                 <div class="flex justify-between w-full">
 
@@ -133,7 +148,7 @@
                     <ul class="flex mr-4">
 
                         <!--? Header Nav Category Item -->
-                        <li class="text-active bg-[#066ac91a] rounded-lg">
+                        <li class="text-active bg-[#066ac91a] rounded-lg group relative">
                             <a href="#" class="flex mx-4 my-1.5 text-md">
                                 <svg class="w-7 h-7">
                                     <use xlink:href="#adjustments-horizontal"></use>
@@ -145,77 +160,83 @@
                             </a>
 
                             <!-- Header Nav Category Menu -->
-                            <ul class="hidden">
+                            <ul
+                                class="absolute top-full right-0 w-56 bg-[#0f0f10] px-5 py-4 *:py-1 rounded-lg  transition-all delay-75">
+                                <!-- opacity-0 invisible group-hover:opacity-100 group-hover:visible -->
 
                                 <!-- Item 1 -->
                                 <!--TODO DropDown SubMenu -->
-                                <li class="">
-                                    <a href="#" class="">
+                                <li class="relative group/edit">
+                                    <a href="#" class="flex items-center justify-between text-gray-400">
                                         <span class="">
                                             برنامه نویسی
                                         </span>
 
-                                        <svg>
+                                        <svg class="w-8 h-8">
                                             <use xlink:href="#ellipsis-horizontal"></use>
                                         </svg>
                                     </a>
 
                                     <!--TODO DropDown SubMenu 1 -->
-                                    <ul class="">
+                                    <ul
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] px-5 py-4 *:py-1 rounded-lg opacity-0 invisible group-hover/edit:opacity-100 group-hover/edit:visible">
+                                        <!-- opacity-0 invisible group-hover:opacity-100 group-hover:visible -->
 
                                         <!-- Item SubMenu 1 -->
                                         <!--TODO DropDown SubMenu 2 -->
-                                        <li class="">
-                                            <a href="#" class="">
+                                        <li class="relative group">
+                                            <a href="#" class="flex items-center justify-between text-gray-400">
                                                 <span class="">
                                                     طراحی وب
                                                 </span>
 
-                                                <svg>
+                                                <svg class="w-8 h-8">
                                                     <use xlink:href="#ellipsis-horizontal"></use>
                                                 </svg>
                                             </a>
 
-                                            <ul class="">
+                                            <ul
+                                                class="absolute top-0 right-52 w-56 bg-[#0f0f10] px-5 py-4 *:py-1 rounded-lg opacity-0 invisible">
+                                                <!-- opacity-0 invisible group-hover:opacity-100 group-hover:visible -->
 
                                                 <!-- Item SubMenu 1 -->
                                                 <li class="">
-                                                    <a href="#" class="">
+                                                    <a href="#" class="text-gray-400">
                                                         HTML
                                                     </a>
                                                 </li>
 
                                                 <!-- Item SubMenu 2 -->
                                                 <li class="">
-                                                    <a href="#" class="">
+                                                    <a href="#" class="text-gray-400">
                                                         CSS
                                                     </a>
                                                 </li>
 
                                                 <!-- Item SubMenu 3 -->
                                                 <li class="">
-                                                    <a href="#" class="">
+                                                    <a href="#" class="text-gray-400">
                                                         JavaScript
                                                     </a>
                                                 </li>
 
                                                 <!-- Item SubMenu 4 -->
                                                 <li class="">
-                                                    <a href="#" class="">
+                                                    <a href="#" class="text-gray-400">
                                                         Angular
                                                     </a>
                                                 </li>
 
                                                 <!-- Item SubMenu 5 -->
                                                 <li class="">
-                                                    <a href="#" class="">
+                                                    <a href="#" class="text-gray-400">
                                                         PHP
                                                     </a>
                                                 </li>
 
                                                 <!-- Item SubMenu 6 -->
                                                 <li class="">
-                                                    <a href="#" class="">
+                                                    <a href="#" class="text-gray-400">
                                                         React
                                                     </a>
                                                 </li>
@@ -225,32 +246,32 @@
 
                                         <!-- Item SubMenu 2 -->
                                         <li class="">
-                                            <a href="#">بانک های اطلاعاتی</a>
+                                            <a href="#" class="text-gray-400">بانک های اطلاعاتی</a>
                                         </li>
 
                                         <!-- Item SubMenu 3 -->
                                         <li class="">
-                                            <a href="#">برنامه نویسی موبایل</a>
+                                            <a href="#" class="text-gray-400">برنامه نویسی موبایل</a>
                                         </li>
 
                                         <!-- Item SubMenu 4 -->
                                         <li class="">
-                                            <a href="#">برنامه نویسی وب</a>
+                                            <a href="#" class="text-gray-400">برنامه نویسی وب</a>
                                         </li>
 
                                         <!-- Item SubMenu 5 -->
                                         <li class="">
-                                            <a href="#">سیستم عامل</a>
+                                            <a href="#" class="text-gray-400">سیستم عامل</a>
                                         </li>
 
                                         <!-- Item SubMenu 6 -->
                                         <li class="">
-                                            <a href="#">مهندسی نرم افزار</a>
+                                            <a href="#" class="text-gray-400">مهندسی نرم افزار</a>
                                         </li>
 
                                         <!-- Item SubMenu 7 -->
                                         <li class="">
-                                            <a href="#">مدیریت پروژه</a>
+                                            <a href="#" class="text-gray-400">مدیریت پروژه</a>
                                         </li>
 
                                     </ul>
@@ -258,27 +279,31 @@
 
                                 <!-- Item 2 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         طراحی وب
                                     </a>
                                 </li>
 
                                 <!-- Item 3 -->
                                 <!--TODO DropDown SubMenu -->
-                                <li class="">
-                                    <a href="#" class="">
-                                        دیجیتال مارکتینگ
+                                <li class="relative">
+                                    <a href="#" class="flex items-center justify-between text-gray-400">
+                                        <span>دیجیتال مارکتینگ</span>
+
+                                        <svg class="w-8 h-8">
+                                            <use xlink:href="#ellipsis-horizontal"></use>
+                                        </svg>
                                     </a>
 
-                                    <div class="">
-                                        <div class="">
+                                    <div class="absolute right-52 top-0 p-7 bg-[#0f0f10] rounded-lg">
+                                        <div class="flex w-[800px]">
                                             <!--? DropDown Column Item -->
-                                            <div class="">
-                                                <h6 class="">دسته بندی</h6>
-                                                <hr class="">
+                                            <div class="w-[25%]">
+                                                <h6 class="text-white pb-7">دسته بندی</h6>
+                                                <hr class="bg-red-700">
 
                                                 <!-- Divider -->
-                                                <ul class="">
+                                                <ul class="*:py-1 pt-4">
                                                     <li class="">
                                                         <a href="#" class="">اینستاگرام مارکتینگ</a>
                                                     </li>
@@ -323,18 +348,18 @@
                                                         <a href="#" class="">اصول قرارداد نویسی</a>
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </hr>
 
                                             <!--? DropDown Column Item -->
-                                            <div class="">
+                                            <div class="w-[37.5%]">
                                                 <h6 class="">درجه بندی مدرک</h6>
                                                 <hr class="">
 
                                                 <!-- Divider -->
                                                 <!-- DropDown Item -->
-                                                <div class="">
+                                                <div class="flex items-center">
                                                     <img src="https://fixdevelopdemo.ir/theme/eduport/rtl/assets/images/client/uni-logo-01.svg"
-                                                        alt="License" class="">
+                                                        alt="License" class="w-10 h-10 rounded-full">
 
                                                     <div class="">
                                                         <a href="#" class="">مدرک بین المللی سطح مبتدی</a>
@@ -343,8 +368,8 @@
                                                 </div>
 
                                                 <!-- DropDown Item -->
-                                                <div class="">
-                                                    <img class=""
+                                                <div class="flex items-center">
+                                                    <img class="w-10 h-10 rounded-full"
                                                         src="https://fixdevelopdemo.ir/theme/eduport/rtl/assets/images/client/uni-logo-02.svg"
                                                         alt="License">
 
@@ -355,8 +380,8 @@
                                                 </div>
 
                                                 <!-- DropDown Item -->
-                                                <div class="">
-                                                    <img class=""
+                                                <div class="flex items-center">
+                                                    <img class="w-10 h-10 rounded-full"
                                                         src="	https://fixdevelopdemo.ir/theme/eduport/rtl/assets/images/client/uni-logo-03.svg"
                                                         alt="License">
 
@@ -367,8 +392,8 @@
                                                 </div>
 
                                                 <!-- DropDown Item -->
-                                                <div class="">
-                                                    <img class=""
+                                                <div class="flex items-center">
+                                                    <img class="w-10 h-10 rounded-full"
                                                         src="	https://fixdevelopdemo.ir/theme/eduport/rtl/assets/images/client/uni-logo-01.svg"
                                                         alt="License">
 
@@ -379,8 +404,8 @@
                                                 </div>
 
                                                 <!-- DropDown Item -->
-                                                <div class="">
-                                                    <img class=""
+                                                <div class="flex items-center">
+                                                    <img class="w-10 h-10 rounded-full"
                                                         src="https://fixdevelopdemo.ir/theme/eduport/rtl/assets/images/client/uni-logo-04.svg"
                                                         alt="License">
 
@@ -392,15 +417,16 @@
                                             </div>
 
                                             <!--? DropDown Column Item -->
-                                            <div class="">
+                                            <div class="w-[37.5%]">
                                                 <h6 class="">در حال ثبت نام</h6>
                                                 <hr class="">
 
                                                 <!-- Divider -->
                                                 <!-- DropDown Item -->
-                                                <div class="">
+                                                <div class="flex items-center">
                                                     <h2 class="">
-                                                        <img src="./images/google.png" alt="Google" class="">
+                                                        <img src="./images/google.png" alt="Google"
+                                                            class="w-10 h-10 rounded-full">
                                                     </h2>
 
                                                     <div class="">
@@ -415,9 +441,10 @@
                                                 </div>
 
                                                 <!-- DropDown Item -->
-                                                <div class="">
+                                                <div class="flex items-center">
                                                     <h2 class="">
-                                                        <img src="./images/linkedin.png" alt="Linkedin" class="">
+                                                        <img src="./images/linkedin.png" alt="Linkedin"
+                                                            class="w-10 h-10 rounded-full">
                                                     </h2>
 
                                                     <div class="">
@@ -432,9 +459,10 @@
                                                 </div>
 
                                                 <!-- DropDown Item -->
-                                                <div class="">
+                                                <div class="flex items-center">
                                                     <h2 class="">
-                                                        <img src="./images/facebook.png" alt="Facebook" class="">
+                                                        <img src="./images/facebook.png" alt="Facebook"
+                                                            class="w-10 h-10 rounded-full">
                                                     </h2>
 
                                                     <div class="">
@@ -448,10 +476,10 @@
                                                 </div>
 
                                                 <!-- DropDown Item -->
-                                                <div class="">
+                                                <div class="flex items-center">
                                                     <h2 class="">
                                                         <img src="./images/basketball-ball.png" alt="Basketball"
-                                                            class="">
+                                                            class="w-10 h-10 rounded-full">
                                                     </h2>
 
                                                     <div class="">
@@ -503,56 +531,56 @@
 
                                 <!-- Item 4 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         هوش مصنوعی
                                     </a>
                                 </li>
 
                                 <!-- Item 5 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         زبان انگلیسی
                                     </a>
                                 </li>
 
                                 <!-- Item 6 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         فناوری و اطلاعات
                                     </a>
                                 </li>
 
                                 <!-- Item 7 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         مهندسی نرم افزار
                                     </a>
                                 </li>
 
                                 <!-- Item 8 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         رباتیک
                                     </a>
                                 </li>
 
                                 <!-- Item 9 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         نگارش آکادمیک
                                     </a>
                                 </li>
 
                                 <!-- Item 10 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         علوم انسانی
                                     </a>
                                 </li>
 
                                 <!-- Item 11 -->
                                 <li class="">
-                                    <a href="#" class="">
+                                    <a href="#" class="text-gray-400">
                                         ریاضیات
                                     </a>
                                 </li>
