@@ -51,4 +51,18 @@
         background-size: cover;
         background-color: rgba(6, 106, 201, 0.5);
     }
+
+    /* .group:hover .group-hover\:visible {
+        visibility: visible;
+        opacity: 1;
+    } */
+
+    /* .group2:hover .group2-hover\:visible {
+        visibility: visible;
+    }
+
+    .group2:hover .group2-hover\:opacity-100 {
+        opacity: 1;
+    } */
+
 }
