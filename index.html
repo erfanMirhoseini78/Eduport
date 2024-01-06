@@ -893,7 +893,7 @@
 
                         <!-- Item 2 -->
                         <li class="relative group/page p-2">
-                            <a href="#" class="flex items-center font-bold text-[#c5c6cc]">
+                            <a href="#" class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
                                 <span class="">صفحات</span>
 
                                 <svg class="w-4 h-4 mt-1.5 mr-1.5">
@@ -1294,8 +1294,8 @@
                         </li>
 
                         <!-- Item 3 -->
-                        <li class="p-2">
-                            <a href="#" class="flex items-center font-bold text-[#c5c6cc]">
+                        <li class="p-2 relative">
+                            <a href="#" class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
                                 <span class="">داشبورد</span>
 
                                 <svg class="w-4 h-4 mt-1.5 mr-1.5">
@@ -1304,7 +1304,7 @@
                             </a>
 
                             <!--? DropDown SubMenu -->
-                            <ul class="hidden">
+                            <ul class="absolute">
                                 <li class="">
                                     <a href="#" class="">
                                         <div class="">
@@ -1584,7 +1584,7 @@
 
                         <!-- Item 4 -->
                         <li class="p-2 relative group/megamenu">
-                            <a href="#" class="flex items-center font-bold text-[#c5c6cc]">
+                            <a href="#" class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
                                 <span class="">مگامنو</span>
 
                                 <svg class="w-4 h-4 mt-1.5 mr-1.5">
@@ -1836,6 +1836,7 @@
 
                                     </div>
 
+                                    <div class="my-5 w-full h-[1px] bg-gray-800"></div>
 
                                     <!-- Action box -->
                                     <div class="">
@@ -1881,7 +1882,7 @@
                 </div>
 
                 <!--! Header Profile -->
-                <div class="relative">
+                <div class="relative group/profile">
 
                     <!-- Header Profile -->
                     <a href="#" class="">
@@ -1889,10 +1890,11 @@
                     </a>
 
                     <!-- Header Profile menu -->
-                    <ul class="absolute left-0 bg-[#0f0f10] w-[250px] p-4 rounded-md">
+                    <ul
+                        class="absolute invisible opacity-0 group-hover/profile:visible group-hover/profile:opacity-100 left-0 bg-[#0f0f10] w-[250px] p-2 rounded-md pb-3">
 
                         <!-- Profile Infos -->
-                        <li class="mb-4">
+                        <li class="mb-4 p-2">
                             <div class="flex items-center">
 
                                 <!-- Avatar -->
@@ -1900,21 +1902,22 @@
                                     <img class="w-14 h-14 rounded-full" src="./images/01.jpg" alt="Profile">
                                 </div>
 
-                                <div class="">
-                                    <a class="text-white" href="#">الهام حسینی</a>
+                                <div class="mr-4">
+                                    <a class="text-white font-bold" href="#">الهام حسینی</a>
 
-                                    <p class="text-gray-400">example@gmail.com</p>
+                                    <p class="text-gray-400 text-xs">example@gmail.com</p>
                                 </div>
+
                             </div>
                         </li>
 
-                        <li class="my-3">
-                            <hr class="">
+                        <li class="my-2">
+                            <div class="w-full h-[1px] bg-gray-800"></div>
                         </li>
 
                         <!-- Profile Links -->
-                        <li class="py-1.5">
-                            <a class="flex items-center text-gray-400 gap-2" href="#">
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
                                 <svg class="h-4 w-4">
                                     <use xlink:href="#user"></use>
                                 </svg>
@@ -1923,8 +1926,8 @@
                             </a>
                         </li>
 
-                        <li class="py-1.5">
-                            <a class="flex items-center text-gray-400 gap-2" href="#">
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
                                 <svg class="h-4 w-4">
                                     <use xlink:href="#cog-6-tooth"></use>
                                 </svg>
@@ -1933,8 +1936,8 @@
                             </a>
                         </li>
 
-                        <li class="py-1.5">
-                            <a class="flex items-center text-gray-400 gap-2" href="#">
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
                                 <svg class="h-4 w-4">
                                     <use xlink:href="#information-circle"></use>
                                 </svg>
@@ -1945,8 +1948,8 @@
                             </a>
                         </li>
 
-                        <li class="py-1.5">
-                            <a class="flex items-center text-gray-400 gap-2" href="#">
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
                                 <svg class="h-4 w-4">
                                     <use xlink:href="#clock"></use>
                                 </svg>
@@ -1957,31 +1960,33 @@
                             </a>
                         </li>
 
-                        <li class="">
-                            <hr class="mt-3">
+                        <li class="my-2">
+                            <div class="w-full h-[1px] bg-gray-800"></div>
                         </li>
 
                         <!-- Dark Mode Option -->
-                        <li class="">
-                            <div class="flex items-center">
-                                <button class="flex items-center" type="button">
-                                    <svg class="h-4 w-4">
+                        <li class="bg-[#2a2c31] p-2 rounded-md">
+                            <div class="flex items-center justify-between">
+                                <button class="flex items-center justify-center text-[#757479]" type="button">
+                                    <svg class="h-4 w-4 mt-1.5 ml-0.5">
                                         <use xlink:href="#moon"></use>
                                     </svg>
 
                                     <span class="">تیره</span>
                                 </button>
 
-                                <button class="flex items-center" type="button">
-                                    <svg class="h-4 w-4">
+                                <button
+                                    class="flex items-center justify-center text-[#f7f5f5] bg-[#222529] pt-1 px-2.5 pb-2 rounded-md"
+                                    type="button">
+                                    <svg class="h-4 w-4 mt-1.5 ml-0.5">
                                         <use xlink:href="#sun"></use>
                                     </svg>
 
                                     <span class="">روشن</span>
                                 </button>
 
-                                <button class="flex items-center" type="button">
-                                    <svg class="h-4 w-4">
+                                <button class="flex items-center justify-center text-[#757479]" type="button">
+                                    <svg class="h-4 w-4 mt-1.5 ml-0.5">
                                         <use xlink:href="#paint-brush"></use>
                                     </svg>
 
