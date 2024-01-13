@@ -386,12 +386,12 @@
     </svg>
     <!--! Finish SVG Sprit  -->
 
-
+    <!-- TODO: Desktop Header -->
     <!--! Start Header Section  -->
-    <header class="">
+    <header class="fixed xl:flex top-0 left-0 right-0 justify-between w-full hidden">
 
         <!--! Start Nav Section -->
-        <nav class="h-24">
+        <nav class="h-24 w-full">
 
             <!-- Header Container Section -->
             <div class="flex mx-12 justify-between items-center h-full">
@@ -400,15 +400,6 @@
                 <a href="#" class="h-9 w-36">
                     <img src="./images/logo-light.svg" class="h-full w-full" alt="LOGO">
                 </a>
-
-                <!--! Responsive Navbar Togger -->
-                <button class="hidden">
-                    <span class="">
-                        <svg class="">
-                            <use xlink:href="#bars-3"></use>
-                        </svg>
-                    </span>
-                </button>
 
                 <!--! Header Nav Main -->
                 <div class="flex justify-between w-full">
@@ -893,7 +884,8 @@
 
                         <!-- Item 2 -->
                         <li class="relative group/page p-2">
-                            <a href="#" class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
+                            <a href="#"
+                                class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
                                 <span class="">صفحات</span>
 
                                 <svg class="w-4 h-4 mt-1.5 mr-1.5">
@@ -904,7 +896,6 @@
                             <!--? DropDown SubMenu -->
                             <ul
                                 class="absolute top-full w-56 px-3 py-4 bg-[#0f0f10] rounded-lg child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/page:opacity-100 group-hover/page:visible">
-                                <!-- opacity-0 invisible group-hover/page:opacity-100 group-hover/page:visible -->
 
                                 <!-- Item 1 -->
                                 <!-- DropDown SubMenu -->
@@ -920,7 +911,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/course:opacity-100 group-hover/course:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/course:opacity-100 group-hover/course:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -960,7 +951,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/other:opacity-100 group-hover/other:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/other:opacity-100 group-hover/other:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -1014,7 +1005,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/banner:opacity-100 group-hover/banner:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/banner:opacity-100 group-hover/banner:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -1085,7 +1076,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/store:opacity-100 group-hover/store:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/store:opacity-100 group-hover/store:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -1146,7 +1137,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/support:opacity-100 group-hover/support:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/support:opacity-100 group-hover/support:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -1185,7 +1176,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/auth:opacity-100 group-hover/auth:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/auth:opacity-100 group-hover/auth:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -1224,7 +1215,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/form:opacity-100 group-hover/form:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/form:opacity-100 group-hover/form:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -1271,7 +1262,7 @@
                                     </a>
 
                                     <ul
-                                        class="absolute top-0 right-56 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/other1:opacity-100 group-hover/other1:visible">
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-1 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/other1:opacity-100 group-hover/other1:visible">
 
                                         <!-- Item 1 -->
                                         <li class="">
@@ -1294,8 +1285,9 @@
                         </li>
 
                         <!-- Item 3 -->
-                        <li class="p-2 relative">
-                            <a href="#" class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
+                        <li class="p-2 relative group/dashboard">
+                            <a href="#"
+                                class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
                                 <span class="">داشبورد</span>
 
                                 <svg class="w-4 h-4 mt-1.5 mr-1.5">
@@ -1304,26 +1296,31 @@
                             </a>
 
                             <!--? DropDown SubMenu -->
-                            <ul class="absolute">
-                                <li class="">
-                                    <a href="#" class="">
-                                        <div class="">
-                                            <svg>
+                            <ul
+                                class="absolute top-full w-56 px-3 py-4 bg-[#0f0f10] rounded-lg child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/dashboard:opacity-100 group-hover/dashboard:visible">
+
+                                <!--? DropDown SubMenu -->
+                                <li class="relative group/teacher">
+                                    <a href="#" class="text-gray-400 flex justify-between hover:text-active">
+                                        <div class="flex">
+                                            <svg class="w-6 h-6">
                                                 <use xlink:href="#user"></use>
                                             </svg>
 
                                             <span class="">مدرس</span>
                                         </div>
 
-                                        <svg>
+                                        <svg class="w-8 h-8">
                                             <use xlink:href="#ellipsis-horizontal"></use>
                                         </svg>
                                     </a>
 
-                                    <ul class="">
+                                    <ul
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-2 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/teacher:opacity-100 group-hover/teacher:visible">
+
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1332,8 +1329,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1342,8 +1339,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1352,8 +1349,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1362,8 +1359,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1372,8 +1369,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1382,8 +1379,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1392,8 +1389,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1402,8 +1399,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1412,8 +1409,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1424,25 +1421,26 @@
                                 </li>
 
                                 <!--? DropDown SubMenu -->
-                                <li class="">
-                                    <a href="#" class="">
-                                        <div class="">
-                                            <svg>
+                                <li class="relative group/student">
+                                    <a href="#" class="flex justify-between text-gray-400 hover:text-active">
+                                        <div class="flex">
+                                            <svg class="w-6 h-6">
                                                 <use xlink:href="#user"></use>
                                             </svg>
 
                                             <span class="">دانشجو</span>
                                         </div>
 
-                                        <svg>
+                                        <svg class="w-8 h-8">
                                             <use xlink:href="#ellipsis-horizontal"></use>
                                         </svg>
                                     </a>
 
-                                    <ul class="">
+                                    <ul
+                                        class="absolute top-0 right-52 w-56 bg-[#0f0f10] rounded-lg p-3 child:py-2 child-hover:bg-[#066ac91a] child-hover:rounded-md child:transition-colors child:px-1 transition-all opacity-0 invisible group-hover/student:opacity-100 group-hover/student:visible">
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1451,8 +1449,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1461,8 +1459,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1471,8 +1469,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1481,8 +1479,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1491,8 +1489,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1501,8 +1499,8 @@
                                         </li>
 
                                         <li class="">
-                                            <a href="#" class="">
-                                                <svg>
+                                            <a href="#" class="text-gray-400 flex hover:text-active">
+                                                <svg class="w-6 h-6">
                                                     <use xlink:href="#user"></use>
                                                 </svg>
 
@@ -1512,71 +1510,47 @@
                                     </ul>
                                 </li>
 
-                                <li class="">
-                                    <a href="#" class="">
-                                        <div class="">
-                                            <svg>
-                                                <use xlink:href="#user"></use>
-                                            </svg>
-
-                                            <span class="">مدیریت</span>
-                                        </div>
-
-                                        <svg>
-                                            <use xlink:href="#ellipsis-horizontal"></use>
+                                <li class="py-1">
+                                    <a href="#" class="flex text-gray-400 hover:text-active">
+                                        <svg class="w-6 h-6">
+                                            <use xlink:href="#user"></use>
                                         </svg>
+
+                                        <span class="">مدیریت</span>
                                     </a>
                                 </li>
 
-                                <li class="">
-                                    <hr class="">
+                                <li class="my-4 h-0 opacity-50">
+                                    <div class="w-full h-[1px] bg-white"></div>
                                 </li>
 
-                                <li class="">
-                                    <a href="#" class="">
-                                        <div class="">
-                                            <svg>
-                                                <use xlink:href="#cog-6-tooth"></use>
-                                            </svg>
-
-                                            <span class="">ویرایش پروفایل</span>
-                                        </div>
-
-                                        <svg>
-                                            <use xlink:href="#ellipsis-horizontal"></use>
+                                <li class="py-1">
+                                    <a href="#" class="text-gray-400 flex items-center hover:text-active">
+                                        <svg class="w-6 h-6">
+                                            <use xlink:href="#cog-6-tooth"></use>
                                         </svg>
+
+                                        <span class="">ویرایش پروفایل</span>
                                     </a>
                                 </li>
 
-                                <li class="">
-                                    <a href="#" class="">
-                                        <div class="">
-                                            <svg>
-                                                <use xlink:href="#cog-6-tooth"></use>
-                                            </svg>
-
-                                            <span class="">تنظیمات</span>
-                                        </div>
-
-                                        <svg>
-                                            <use xlink:href="#ellipsis-horizontal"></use>
+                                <li class="py-1">
+                                    <a href="#" class="flex text-gray-400 hover:text-active">
+                                        <svg class="w-6 h-6">
+                                            <use xlink:href="#cog-6-tooth"></use>
                                         </svg>
+
+                                        <span class="">تنظیمات</span>
                                     </a>
                                 </li>
 
-                                <li class="">
-                                    <a href="#" class="">
-                                        <div class="">
-                                            <svg>
-                                                <use xlink:href="#cog-6-tooth"></use>
-                                            </svg>
-
-                                            <span class="">حذف پروفایل</span>
-                                        </div>
-
-                                        <svg>
-                                            <use xlink:href="#ellipsis-horizontal"></use>
+                                <li class="py-1">
+                                    <a href="#" class="text-gray-400 flex hover:text-active">
+                                        <svg class="w-6 h-6">
+                                            <use xlink:href="#cog-6-tooth"></use>
                                         </svg>
+
+                                        <span class="">حذف پروفایل</span>
                                     </a>
                                 </li>
                             </ul>
@@ -1584,7 +1558,8 @@
 
                         <!-- Item 4 -->
                         <li class="p-2 relative group/megamenu">
-                            <a href="#" class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
+                            <a href="#"
+                                class="flex items-center font-bold text-[#c5c6cc] hover:text-active transition-colors delay-75">
                                 <span class="">مگامنو</span>
 
                                 <svg class="w-4 h-4 mt-1.5 mr-1.5">
@@ -1593,8 +1568,8 @@
                             </a>
 
                             <div
-                                class="absolute w-[1300px] -left-[400px] mx-auto top-full bg-[#0f0f10] rounded-lg pb-3 pt-1 px-5 opacity-0 invisible group-hover/megamenu:opacity-100 group-hover/megamenu:visible">
-                                <div class="">
+                                class="absolute w-[1300px] -left-[400px] mx-auto p-10 top-full opacity-0 invisible group-hover/megamenu:opacity-100 group-hover/megamenu:visible">
+                                <div class="bg-[#0f0f10] rounded-lg pb-3 pt-1 px-5">
                                     <div class="flex">
 
                                         <!-- DropDown Column Item -->
@@ -1729,7 +1704,7 @@
                                             <div class="mb-5 w-64 h-[1px] bg-gray-800"></div>
 
                                             <!--? DropDown Item -->
-                                            <div class="flex mb-6">
+                                            <div class="flex mb-6 gap-4">
                                                 <h2 class="">
                                                     <img src="./images/google.png" alt="Google"
                                                         class="h-10 w-10 rounded-full">
@@ -1747,7 +1722,7 @@
                                             </div>
 
                                             <!--? DropDown Item -->
-                                            <div class="flex mb-6">
+                                            <div class="flex mb-6 gap-4">
                                                 <h2 class="">
                                                     <img src="./images/linkedin.png" alt="Linkedin"
                                                         class="h-10 w-10 rounded-full">
@@ -1765,7 +1740,7 @@
                                             </div>
 
                                             <!--? DropDown Item -->
-                                            <div class="flex mb-6">
+                                            <div class="flex mb-6 gap-4">
                                                 <h2 class="">
                                                     <img src="./images/facebook.png" alt="Facebook"
                                                         class="h-10 w-10 rounded-full">
@@ -1783,7 +1758,7 @@
                                             </div>
 
                                             <!--? DropDown Item -->
-                                            <div class="flex mb-6">
+                                            <div class="flex mb-6 gap-4">
                                                 <h2 class="">
                                                     <img src="./images/basketball-ball.png" alt="Basketball"
                                                         class="h-10 w-10 rounded-full">
@@ -1820,7 +1795,7 @@
                                                 <div class="">
                                                     <a href="#" class="">
                                                         <img src="https://fixdevelopdemo.ir/theme/eduport/rtl/assets/images/client/google-play.svg"
-                                                            alt="Google Play" class="w-36 h-11">
+                                                            alt="Google Play" class="w-32 h-11">
                                                     </a>
                                                 </div>
 
@@ -1828,7 +1803,7 @@
                                                 <div class="">
                                                     <a href="#" class="">
                                                         <img src="	https://fixdevelopdemo.ir/theme/eduport/rtl/assets/images/client/app-store.svg"
-                                                            alt="App Store" class="w-36 h-11">
+                                                            alt="App Store" class="w-32 h-11">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2008,215 +1983,147 @@
     <!--! Finish Header Section -->
 
 
-    <main>
-        <!--! Start Main Banner -->
+    <!-- TODO Mobile Header -->
+    <header class="flex xl:hidden w-full p-5">
+        <nav class="w-full">
+            <div class="flex justify-between w-full">
 
-        <section class="">
-
-            <figure class="">
-                <svg class="">
-                    <use xlink:href="#figure-1"></use>
-                </svg>
-            </figure>
-
-            <span class="">
-                <svg class="">
-                    <use xlink:href="#figure-2"></use>
-                </svg>
-            </span>
-
-            <figure class="">
-                <svg class="">
-                    <use xlink:href="#figure-3"></use>
-                </svg>
-            </figure>
-
-            <!--! Start Content -->
-            <div class="">
-                <div class="">
-                    <!--! Start Right Content -->
-                    <div class="">
-                        <figure class="">
-                            <svg class="">
-                                <use xlink:href="#figure-4"></use>
-                            </svg>
-                        </figure>
-
-                        <figure class="">
-                            <svg class="">
-                                <use xlink:href="#figure-5"></use>
-                            </svg>
-                        </figure>
-
-                        <h1 class="">
-                            به دانشگاه آنلاین ما
-                            <br>
-                            <span class="">
-                                خوش آمدید
-                                <span class="">
-                                    <svg class="">
-                                        <use xlink:href="#figure-6"></use>
-                                    </svg>
-                                </span>
-                            </span>
-                        </h1>
-
-                        <p class="">
-                            بازار آنلاین آموزش و یادگیری با بیش از 5K دوره و 10 میلیون دانشجو. توسط متخصصان آموزش داده
-                            می شود تا به شما در کسب مهارت های جدید کمک کند.
-                        </p>
-
-                        <!-- Info -->
-                        <ul class="">
-                            <li class="">
-                                <svg class="">
-                                    <use xlink:href="#check-badge"></use>
-                                </svg>
-
-                                <span class="">مدرس مجرب</span>
-                            </li>
-
-                            <li class="">
-
-                                <svg class="">
-                                    <use xlink:href="#check-badge"></use>
-                                </svg>
-
-                                <span class="">ارائه مدرک</span>
-                            </li>
-
-                            <li class=""></li>
-
-                            <svg class="">
-                                <use xlink:href="#check-badge"></use>
-                            </svg>
-
-                            <span class="">جذب مدرس</span>
-                        </ul>
-
-                        <div class="">
-                            <!-- Button -->
-                            <a href="#" class="">شروع کن</a>
-
-                            <!-- Video Button -->
-                            <div class="">
-                                <a href="#" class="">
-                                    <svg class="">
-                                        <use xlink:href="#play"></use>
-                                    </svg>
-
-                                    <h6 class="">مشاهده ویدیو</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--! Finish Right Content -->
+                <!--! Header Logo -->
+                <a href="#" class="h-9 w-36">
+                    <img src="./images/logo-light.svg" class="h-full w-full" alt="LOGO">
+                </a>
 
 
-                    <!--! Start Left Content -->
-                    <div class="">
-                        <figure class="">
-                            <svg class="">
-                                <use xlink:href="#figure-7"></use>
-                            </svg>
-                        </figure>
+                <!--! Responsive Navbar Togger -->
+                <button class="hidden">
+                    <span class="">
+                        <svg class="">
+                            <use xlink:href="#bars-3"></use>
+                        </svg>
+                    </span>
+                </button>
 
-                        <figure class="">
-                            <svg class="">
-                                <use xlink:href="#figure-8"></use>
-                            </svg>
-                        </figure>
 
-                        <figure class="">
-                            <svg class="">
-                                <use xlink:href="#figure-9"></use>
-                            </svg>
-                        </figure>
+                <!--! Header Profile -->
+                <div class="relative group/profile">
 
-                        <div class="">
-                            <img src="./images/science.svg" alt="Science" class="">
-                        </div>
+                    <!-- Header Profile -->
+                    <a href="#" class="">
+                        <img src="./images/01.jpg" alt="PROFILE" class="w-10 h-10 rounded-full">
+                    </a>
 
-                        <div class="">
-                            <img src="./images/angular.svg" alt="Angular" class="">
-                        </div>
+                    <!-- Header Profile menu -->
+                    <ul
+                        class="absolute invisible opacity-0 group-hover/profile:visible group-hover/profile:opacity-100 left-0 bg-[#0f0f10] w-[250px] p-2 rounded-md pb-3">
 
-                        <div class="">
-                            <img src="./images/figma.svg" alt="Figma" class="">
-                        </div>
+                        <!-- Profile Infos -->
+                        <li class="mb-4 p-2">
+                            <div class="flex items-center">
 
-                        <!-- Congratulations message -->
-                        <div class="">
-                            <div class="">
-                                <!-- Icon -->
-                                <span class="">
-                                    <svg class="">
-                                        <use xlink:href="#envelope"></use>
-                                    </svg>
-                                </span>
-
-                                <!-- Info -->
+                                <!-- Avatar -->
                                 <div class="">
-                                    <h6 class="">
-                                        <span class="">تبریک میگم!</span>
-
-                                        <span class="">
-                                            <svg class="">
-                                                <use xlink:href="#check-circle"></use>
-                                            </svg>
-                                        </span>
-                                    </h6>
-
-                                    <p class="">پذیرش شما تکمیل شد</p>
+                                    <img class="w-14 h-14 rounded-full" src="./images/01.jpg" alt="Profile">
                                 </div>
+
+                                <div class="mr-4">
+                                    <a class="text-white font-bold" href="#">الهام حسینی</a>
+
+                                    <p class="text-gray-400 text-xs">example@gmail.com</p>
+                                </div>
+
                             </div>
-                        </div>
+                        </li>
 
-                        <!-- Active student -->
-                        <div class=""> <!--? Background Image -->
-                            <p class="">دانشجویان جدید امروز ما</p>
+                        <li class="my-2">
+                            <div class="w-full h-[1px] bg-gray-800"></div>
+                        </li>
 
-                            <!-- Avatar Group -->
-                            <ul class="">
-                                <li class="">
-                                    <img src="./images/01.jpg" alt="Avatar" class="">
-                                </li>
+                        <!-- Profile Links -->
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
+                                <svg class="h-4 w-4">
+                                    <use xlink:href="#user"></use>
+                                </svg>
 
-                                <li class="">
-                                    <img src="./images/02.jpg" alt="Avatar" class="">
-                                </li>
+                                <span class="">ویرایش</span>
+                            </a>
+                        </li>
 
-                                <li class="">
-                                    <img src="./images/03.jpg" alt="Avatar" class="">
-                                </li>
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
+                                <svg class="h-4 w-4">
+                                    <use xlink:href="#cog-6-tooth"></use>
+                                </svg>
 
-                                <li class="">
-                                    <img src="./images/04.jpg" alt="Avatar" class="">
-                                </li>
+                                <span class="">تنظیمات</span>
+                            </a>
+                        </li>
 
-                                <li class="">
-                                    <div class="">
-                                        <span class="">1K+</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
+                                <svg class="h-4 w-4">
+                                    <use xlink:href="#information-circle"></use>
+                                </svg>
 
-                        <!-- Image -->
-                        <div class="">
-                            <img src="./images/07.png" alt="Image" class="">
-                        </div>
+                                <span class="">
+                                    پشتیبانی
+                                </span>
+                            </a>
+                        </li>
 
-                    </div>
-                    <!--! Finish Left Content -->
+                        <li class="py-1.5 px-2 hover:bg-[#066ac91a] hover:rounded-sm transition-colors">
+                            <a class="flex items-center text-gray-400 gap-2 hover:text-active" href="#">
+                                <svg class="h-4 w-4">
+                                    <use xlink:href="#clock"></use>
+                                </svg>
+
+                                <span class="">
+                                    خروج
+                                </span>
+                            </a>
+                        </li>
+
+                        <li class="my-2">
+                            <div class="w-full h-[1px] bg-gray-800"></div>
+                        </li>
+
+                        <!-- Dark Mode Option -->
+                        <li class="bg-[#2a2c31] p-2 rounded-md">
+                            <div class="flex items-center justify-between">
+                                <button class="flex items-center justify-center text-[#757479]" type="button">
+                                    <svg class="h-4 w-4 mt-1.5 ml-0.5">
+                                        <use xlink:href="#moon"></use>
+                                    </svg>
+
+                                    <span class="">تیره</span>
+                                </button>
+
+                                <button
+                                    class="flex items-center justify-center text-[#f7f5f5] bg-[#222529] pt-1 px-2.5 pb-2 rounded-md"
+                                    type="button">
+                                    <svg class="h-4 w-4 mt-1.5 ml-0.5">
+                                        <use xlink:href="#sun"></use>
+                                    </svg>
+
+                                    <span class="">روشن</span>
+                                </button>
+
+                                <button class="flex items-center justify-center text-[#757479]" type="button">
+                                    <svg class="h-4 w-4 mt-1.5 ml-0.5">
+                                        <use xlink:href="#paint-brush"></use>
+                                    </svg>
+
+                                    <span class="">خودکار</span>
+                                </button>
+                            </div>
+                        </li>
+
+                    </ul>
+
                 </div>
             </div>
-            <!--! Finish Content -->
-
-        </section>
-
-        <!--! Finish Main Banner -->
-    </main>
+        </nav>
+    </header>
 
     <!--! ScriptS File -->
     <script src="./scripts/app.js"></script>
