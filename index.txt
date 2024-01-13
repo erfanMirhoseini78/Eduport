@@ -1,0 +1,209 @@
+<main>
+        <!--! Start Main Banner -->
+
+        <section class="">
+
+            <figure class="">
+                <svg class="">
+                    <use xlink:href="#figure-1"></use>
+                </svg>
+            </figure>
+
+            <span class="">
+                <svg class="">
+                    <use xlink:href="#figure-2"></use>
+                </svg>
+            </span>
+
+            <figure class="">
+                <svg class="">
+                    <use xlink:href="#figure-3"></use>
+                </svg>
+            </figure>
+
+            <!--! Start Content -->
+            <div class="">
+                <div class="">
+                    <!--! Start Right Content -->
+                    <div class="">
+                        <figure class="">
+                            <svg class="">
+                                <use xlink:href="#figure-4"></use>
+                            </svg>
+                        </figure>
+
+                        <figure class="">
+                            <svg class="">
+                                <use xlink:href="#figure-5"></use>
+                            </svg>
+                        </figure>
+
+                        <h1 class="">
+                            به دانشگاه آنلاین ما
+                            <br>
+                            <span class="">
+                                خوش آمدید
+                                <span class="">
+                                    <svg class="">
+                                        <use xlink:href="#figure-6"></use>
+                                    </svg>
+                                </span>
+                            </span>
+                        </h1>
+
+                        <p class="">
+                            بازار آنلاین آموزش و یادگیری با بیش از 5K دوره و 10 میلیون دانشجو. توسط متخصصان آموزش داده
+                            می شود تا به شما در کسب مهارت های جدید کمک کند.
+                        </p>
+
+                        <!-- Info -->
+                        <ul class="">
+                            <li class="">
+                                <svg class="">
+                                    <use xlink:href="#check-badge"></use>
+                                </svg>
+
+                                <span class="">مدرس مجرب</span>
+                            </li>
+
+                            <li class="">
+
+                                <svg class="">
+                                    <use xlink:href="#check-badge"></use>
+                                </svg>
+
+                                <span class="">ارائه مدرک</span>
+                            </li>
+
+                            <li class=""></li>
+
+                            <svg class="">
+                                <use xlink:href="#check-badge"></use>
+                            </svg>
+
+                            <span class="">جذب مدرس</span>
+                        </ul>
+
+                        <div class="">
+                            <!-- Button -->
+                            <a href="#" class="">شروع کن</a>
+
+                            <!-- Video Button -->
+                            <div class="">
+                                <a href="#" class="">
+                                    <svg class="">
+                                        <use xlink:href="#play"></use>
+                                    </svg>
+
+                                    <h6 class="">مشاهده ویدیو</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--! Finish Right Content -->
+
+
+                    <!--! Start Left Content -->
+                    <div class="">
+                        <figure class="">
+                            <svg class="">
+                                <use xlink:href="#figure-7"></use>
+                            </svg>
+                        </figure>
+
+                        <figure class="">
+                            <svg class="">
+                                <use xlink:href="#figure-8"></use>
+                            </svg>
+                        </figure>
+
+                        <figure class="">
+                            <svg class="">
+                                <use xlink:href="#figure-9"></use>
+                            </svg>
+                        </figure>
+
+                        <div class="">
+                            <img src="./images/science.svg" alt="Science" class="">
+                        </div>
+
+                        <div class="">
+                            <img src="./images/angular.svg" alt="Angular" class="">
+                        </div>
+
+                        <div class="">
+                            <img src="./images/figma.svg" alt="Figma" class="">
+                        </div>
+
+                        <!-- Congratulations message -->
+                        <div class="">
+                            <div class="">
+                                <!-- Icon -->
+                                <span class="">
+                                    <svg class="">
+                                        <use xlink:href="#envelope"></use>
+                                    </svg>
+                                </span>
+
+                                <!-- Info -->
+                                <div class="">
+                                    <h6 class="">
+                                        <span class="">تبریک میگم!</span>
+
+                                        <span class="">
+                                            <svg class="">
+                                                <use xlink:href="#check-circle"></use>
+                                            </svg>
+                                        </span>
+                                    </h6>
+
+                                    <p class="">پذیرش شما تکمیل شد</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Active student -->
+                        <div class=""> <!--? Background Image -->
+                            <p class="">دانشجویان جدید امروز ما</p>
+
+                            <!-- Avatar Group -->
+                            <ul class="">
+                                <li class="">
+                                    <img src="./images/01.jpg" alt="Avatar" class="">
+                                </li>
+
+                                <li class="">
+                                    <img src="./images/02.jpg" alt="Avatar" class="">
+                                </li>
+
+                                <li class="">
+                                    <img src="./images/03.jpg" alt="Avatar" class="">
+                                </li>
+
+                                <li class="">
+                                    <img src="./images/04.jpg" alt="Avatar" class="">
+                                </li>
+
+                                <li class="">
+                                    <div class="">
+                                        <span class="">1K+</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Image -->
+                        <div class="">
+                            <img src="./images/07.png" alt="Image" class="">
+                        </div>
+
+                    </div>
+                    <!--! Finish Left Content -->
+                </div>
+            </div>
+            <!--! Finish Content -->
+
+        </section>
+
+        <!--! Finish Main Banner -->
+    </main>
